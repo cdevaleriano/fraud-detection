@@ -6,7 +6,7 @@ With fraud cases present in the banking industry. A detection algorithm is neede
 # Data Acquisition
 The dataset used comes from the Bank Account Fraud suite of datasets. This is published at the NeurIPS 2022. The base variant was chosen for best representation of the original dataset. [ADD CITATION]
 
-# Data Preparation & Feature Endgineering
+# Data Preparation
 
 # Exploratory Data Analysis
 
