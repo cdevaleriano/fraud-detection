@@ -30,12 +30,12 @@ The dataset used comes from the Bank Account Fraud suite of datasets. This is pu
 - Even 5% FPR was not achieved by any of the classifiers, a model was built that reduced the FPR of the reference classifier (base logistic regression) by approximately 40%.
 
 # Recommendations
-- Feature Engineering
-- Explore other time splits
-- Use other balancing methods
-- Use other machine learning algoirthms
-- Use more exhaustive tuning algorithms
-- Model deployment
+- **Explore other Time Splits:** The project uses the split done in the paper done by the dataset authors. Thus, other time splits (different time splits, rolling window, expanding window) could be explored.
+- **Feature Engineering:** With the only modification done the columns being scaling and dummy encoding, creation of other features e.g. PCA could be done.
+- **Use other balancing methods:** Since randomized undersampling was used to balance the positive and negative cases, which led to a great amount of information lost, other balancing methods could be considered.
+- **Use other machine learning algoirthms:** All classifiers are in the scikit-learn package and familiar with me. More complex models from other packages (e.g. neural networks) can be utilized.
+- **Perform more exhaustive tuning:** With the tuning algorithm being RandomizedSearchCV and the hyperparameters being the most common parameters used in the machine learning algorithms, GridSearchCV and addition of more hyperparameters of consideration could be utilized.
+- **Model deployment:** To form predictions with new data outside of the test set, the best performing model can be deployed to an API and create predictions for potential account openers.
 
 # Citation
 ```bibtex
