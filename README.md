@@ -14,7 +14,9 @@ The dataset used comes from the Bank Account Fraud suite of datasets. This is pu
 - **Scaling of Continuous Columns:** Lastly, with the balanced training set, numeric columns are scaled using StandardScaler() for better model performance. 
 
 # Model Building
-- 
+- **Utilization of Various Algorithms:** With many classifiers available in the scikit-learn package, I chose to build base models with default parameters using logistic regression, stochastic gradient descent (SGD), k-nearest neighbors (KNN), decision trees, AdaBoost, random forests, gradient boosted trees, and support vector machines (SVM). For this project, I will refer to the untuned logistic regression classifier as the reference classifier due to its simplicity and interpretability over other models.
+- **Evaluation of Fit:** 5-fold cross-validation was done to determine the in-sample false positive rate (FPR) with AdaBoost showing the lowest median FPR. <img width="630" height="470" alt="untuned models cv" src="https://github.com/user-attachments/assets/c860c4be-5df9-46f1-8a73-55cede44b8f0" /> 
+- **Evaluation of Predictive Ability:** Test FPRs were also observed for the models with gradient boosting showing the best performance. <img width="678" height="455" alt="untuned models test fpr" src="https://github.com/user-attachments/assets/6412480e-babb-4ef0-a079-b41248ea0178" />
 
 # Hyperparameter Tuning
 
