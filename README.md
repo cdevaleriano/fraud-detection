@@ -1,4 +1,5 @@
 # Executive Summary
+A machine learning classifier was made to detect fraud accounts to limit company losses & provide accounts to legitimate applicants. The best performing model showcased an 11% False-Positive-Rate with emphasis on recommendations to improve data and model quality.
 
 # Problem Statement
 With fraud cases present in the banking industry. A detection algorithm is needed to identify fraudulent accounts to avoid company losses and provide accounts to only legitimate applicants. 
