@@ -1,7 +1,7 @@
 # Executive Summary
 
 # Problem Statement
-With fraud cases present in the banking industry. A detection algorithm is needed to identify fraudulent accounts to avoid company losses and provide accounts to only legitimate applicants. False Positive Rate
+With fraud cases present in the banking industry. A detection algorithm is needed to identify fraudulent accounts to avoid company losses and provide accounts to only legitimate applicants. 
 
 # Data Acquisition
 The dataset used comes from the Bank Account Fraud suite of datasets. This is published at the NeurIPS 2022. The base variant was chosen for best representation of the original datasets used for fraud detection. The dataset is already in a structured format with no empty values. Full details can be found at the [Kaggle Page](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022).
