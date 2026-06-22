@@ -27,7 +27,7 @@ The dataset used comes from the Bank Account Fraud suite of datasets. This is pu
 
 # Final Model
 - With the Gradient Boosting Decision Trees having best performance rates, This is the best learning algorithm for this project. When it comes to parameters, I chose the tuned parameters despite the higher FPR due to the small differences that can be seen between the tuned and test metrics.
-- Even 5% FPR was not achieved by any of the classifiers, a model was built that reduced the FPR of the reference classifier (base logistic regression) by approximately 50%.
+- Even 5% FPR was not achieved by any of the classifiers, a model was built that reduced the FPR of the reference classifier (base logistic regression) by approximately 40%.
 
 # Recommendations
 - Feature Engineering
