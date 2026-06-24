@@ -1,5 +1,5 @@
 # Executive Summary
-I developed a machine learning classifier that predicts fraud accounts with an 11% false positive rate (FPR). The model performed better than baseline methods, however, it has yet to achieve the desired FPR of 5%. Further model development is recommended to improve predictive ability before considering deployment.
+I developed a machine learning classifier that predicts fraud accounts with an 11% false positive rate (FPR). The model performed better than the baseline, however, it has yet to achieve the desired FPR of 5%. Further model development is recommended to improve predictive ability before considering deployment.
 
 # Problem Statement
 To reduce synthetic identities from causing financial losses, a detecion algorithm was built to flag fraudulent personas to reduce manual decision-making and improve operational efficiency for approval of account openings. False positive rates (FPRs) were observed as denied legitimate accounts (false positives) lead to loss of company trust, which harms company reputation. Company reputation is valued more than company losses, thus, false positives should be minimized with the target FPR being 5%.  
