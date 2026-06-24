@@ -37,12 +37,5 @@ The dataset used comes from the Bank Account Fraud suite of datasets. This is pu
 - **Use other machine learning algoirthms:** All classifiers are in the scikit-learn package and familiar with me. More complex models from other packages (e.g. neural networks) can be utilized.
 - **Perform more exhaustive tuning:** With the tuning algorithm being RandomizedSearchCV and the hyperparameters being the most common parameters used in the machine learning algorithms, GridSearchCV and addition of more hyperparameters of consideration could be utilized.
 
-# Citation
-```bibtex
-@article{jesusTurningTablesBiased2022,
-  title={Turning the {{Tables}}: {{Biased}}, {{Imbalanced}}, {{Dynamic Tabular Datasets}} for {{ML Evaluation}}},
-  author={Jesus, S{\'e}rgio and Pombal, Jos{\'e} and Alves, Duarte and Cruz, Andr{\'e} and Saleiro, Pedro and Ribeiro, Rita P. and Gama, Jo{\~a}o and Bizarro, Pedro},
-  journal={Advances in Neural Information Processing Systems},
-  year={2022}
-}
-```
+# Dataset Citation
+Jesus, S., Pombal, J., Alves, D., Cruz, A., Saleiro, P., Ribeiro, R., Gama, J., & Bizarro, P. (2022). Turning the Tables: Biased, Imbalanced, Dynamic Tabular Datasets for ML Evaluation. Advances in Neural Information Processing Systems.
