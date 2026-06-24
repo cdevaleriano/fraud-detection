@@ -5,7 +5,7 @@ I developed a machine learning classifier that predicts fraud accounts with an 1
 To reduce synthetic identities from causing financial losses, a detecion algorithm was built to flag fraudulent personas to reduce manual decision-making and improve operational efficiency for approval of account openings. False positive rates (FPRs) were observed as denied legitimate accounts (false positives) lead to loss of company trust, which harms company reputation. Company reputation is valued more than company losses, thus, false positives should be minimized with the target FPR being 5%.  
 
 # Data Acquisition
-The dataset used comes from the Bank Account Fraud suite of datasets. This is published at the NeurIPS 2022. The base variant was chosen for best representation of the original datasets used for fraud detection. The dataset is already in a structured format with no empty values. Full details can be found at the [Kaggle Page](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022).
+The dataset used comes from the Bank Account Fraud suite of datasets by Jesus et al. (2022). This is published at the NeurIPS 2022. The base variant was chosen for best representation of the original datasets used for fraud detection. The dataset is already in a structured format with no empty values. Full details can be found at the [Kaggle Page](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022).
 
 # Data Preparation
 - **Month-based Train-test Split:** As recommended by the paper, the first 6 months served as the training set and the remaining 2 months as the test set.
