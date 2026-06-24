@@ -1,8 +1,8 @@
 # Executive Summary
-A machine learning classifier was made to detect fraud accounts to limit company losses & provide accounts to legitimate applicants. The best performing model showcased an 11% False-Positive Rate with emphasis on recommendations to improve data and model quality.
+I developed a machine learning classifier that predicts fraud accounts with an 11% false positive rate (FPR). The model performed better than baseline methods, however, it has yet to achieve the desired FPR of 5%. Further model development is recommended to improve predictive ability before considering deployment.
 
 # Problem Statement
-With fraud cases present in the banking industry. A detection algorithm is needed to identify fraudulent accounts to avoid company losses and provide accounts to only legitimate applicants. 
+To reduce synthetic identities from causing financial losses, a detecion algorithm was built to flag fraudulent personas to reduce manual decision-making and improve operational efficiency for approval of account openings. False positive rates (FPRs) were observed as denied legitimate accounts (false positives) lead to loss of company trust, which harms company reputation. Company reputation is valued more than company losses, thus, false positives should be minimized with the target FPR being 5%.  
 
 # Data Acquisition
 The dataset used comes from the Bank Account Fraud suite of datasets. This is published at the NeurIPS 2022. The base variant was chosen for best representation of the original datasets used for fraud detection. The dataset is already in a structured format with no empty values. Full details can be found at the [Kaggle Page](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022).
@@ -36,7 +36,6 @@ The dataset used comes from the Bank Account Fraud suite of datasets. This is pu
 - **Use other balancing methods:** Since randomized undersampling was used to balance the positive and negative cases, which led to a great amount of information lost, other balancing methods could be considered.
 - **Use other machine learning algoirthms:** All classifiers are in the scikit-learn package and familiar with me. More complex models from other packages (e.g. neural networks) can be utilized.
 - **Perform more exhaustive tuning:** With the tuning algorithm being RandomizedSearchCV and the hyperparameters being the most common parameters used in the machine learning algorithms, GridSearchCV and addition of more hyperparameters of consideration could be utilized.
-- **Model deployment:** To form predictions with new data outside of the test set, the best performing model can be deployed to an API and create predictions for potential account openers.
 
 # Citation
 ```bibtex
